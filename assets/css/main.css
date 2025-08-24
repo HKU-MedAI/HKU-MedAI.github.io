@@ -913,7 +913,7 @@ section,
 }
 
 .team .member .social a {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
   transition: 0.3s;
   border-radius: 50%;
   width: 40px;
@@ -921,7 +921,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 60%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
 .team .member .social a:hover {
@@ -934,14 +934,14 @@ section,
   margin: 0 2px;
 }
 .team .member .social a.inactive-link {
-  color: #ccc; 
-  border-color: #ccc;
+  color: #dbdbdb; 
+  border-color:  #dbdbdb;
   pointer-events: none; 
 }
 
 .team .member .social a.inactive-link:hover {
-  color: #ccc; 
-  border-color: #ccc;
+  color: #dbdbdb; 
+  border-color:  #dbdbdb;
 }
 
 /*--------------------------------------------------------------
